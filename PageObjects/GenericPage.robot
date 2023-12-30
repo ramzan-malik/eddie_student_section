@@ -37,8 +37,8 @@ Open Chrome Browser With URL
 Enter Email Id and Password to Login
 
 	[Arguments]             ${username}                     ${valid_password}
-	Input Text              ${username}                     dashboard@nykey.org
-	Input Password          ${valid_password}               12345678
+	Input Text              ${username}                     S11001
+	Input Password          ${valid_password}               000000
 	Execute JavaScript      window.scrollTo(0, document.body.scrollHeight)
 	Sleep                   2
 	Click Element           ${login_remember_me_toggle}
