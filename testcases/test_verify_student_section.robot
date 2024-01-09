@@ -74,8 +74,8 @@ test_student_invoices.py Link
 
 	GenericPage.Enter Email Id and Password to Login              ${username}           ${valid_password}
 	Verify User Successfully Logged In
-	Sleep    2
-	Verify Link and Success Block Element of the page             https://app-qa.nykey.org/invoices/student/0/shows      Invoices
+	Sleep    3
+	Verify Link and Success Block Element of the page             https://app-qa.nykey.org/invoices/student/0/show      Invoices
 	Sleep    3
 
 
